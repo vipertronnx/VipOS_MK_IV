@@ -22,7 +22,7 @@ module.exports = function(importIO) {
 
 /**
  *  Connect to Chat
- * 
+ *
  */
 const chatInit = async function() {
 
@@ -36,12 +36,12 @@ const chatInit = async function() {
     })
 
     // Listen to chat messages
-    chatClient.onMessage((channel, user, text, msg) => {        
-      
+    chatClient.onMessage((channel, user, text, msg) => {
+
       /**
        * Detect Highlight messages, and if from an appropriate user, send the
        * message to the text-alert overlay
-       * 
+       *
        */
       if(msg.isHighlight && (msg.userInfo.isBroadcaster || msg.userInfo.isMod || msg.userInfo.isVip)) {
         // Do Highlight stuff
@@ -49,12 +49,12 @@ const chatInit = async function() {
       }
 
       // Console some things
-      // console.log(msg);
-      // console.log(text);
+      //console.log(msg);
+      console.log(text);
 
       /**
        * Automated raffle start / stop commands
-       * 
+       *
        */
       if(text === '!startraffles') { if(msg.userInfo.isMod || msg.userInfo.isBroadcaster) { RaffleStart(); } }
       if(text === '!endraffles')   { if(msg.userInfo.isMod || msg.userInfo.isBroadcaster) { RaffleEnd();   } }
@@ -66,6 +66,6 @@ const chatInit = async function() {
 
 /**
  * Initialize the chat bot
- * 
+ *
  */
 chatInit();
