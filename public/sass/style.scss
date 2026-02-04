@@ -105,7 +105,7 @@ h1,h2,h3,h4,h5,h6 {
   height: 100px;
   position: relative;
   width: 1880px;
-  
+
   div.command {
     display: inline-block;
     height: 100px;
@@ -163,7 +163,7 @@ h1,h2,h3,h4,h5,h6 {
   padding: 350px 0 0 0;
   position: relative;
   width: 1880px;
-  
+
   div.command {
     padding: 0 0 15px 25px;
     position: relative;
@@ -182,7 +182,7 @@ h1,h2,h3,h4,h5,h6 {
     &.lurk { animation: infobar_side 150s ease infinite; animation-delay: 0.2s; }
     &.socials { animation: infobar_side 150s ease infinite; animation-delay: 0.4s; }
     &.discord { animation: infobar_side 150s ease infinite; animation-delay: 0.6s; border-radius: 0 0 20px 0; }
-    
+
   }
 
 }
@@ -220,19 +220,19 @@ h1,h2,h3,h4,h5,h6 {
     align-items:center;
     justify-content:center;
   }
-  
+
   .col {
     display:inline-flex;
     flex-direction:column;
   }
-  
+
   .item {
     width:55px;
     height:15px;
     background:#000;
     margin:3px 8px;
   }
-  
+
   // .red1 { background:#fa0000 }
   // .red2 { background:#8d0000 }
   // .red3 { background:#4d0000 }
@@ -243,7 +243,7 @@ h1,h2,h3,h4,h5,h6 {
   .red4 { background:#000f22; box-shadow: 0 0 1px 1px #000f22;}
 
   .off { opacity:0.5 }
-  
+
   .button {
     width:60px;
     height:35px;
@@ -258,15 +258,15 @@ h1,h2,h3,h4,h5,h6 {
     text-align:center;
     display:flex;
   }
-  
+
   .button.yellow {
     background:yellow;
   }
-  
+
   .button.red {
     background:red;
   }
-  
+
   .init {
     border:1px solid #555;
     background:RGBA(155,155,155, .15);
@@ -278,13 +278,13 @@ h1,h2,h3,h4,h5,h6 {
     font-size:22px;
     cursor:pointer;
   }
-  
+
   .disable {
     display:none;
   }
 
 
-  // div.column { 
+  // div.column {
   //   float: left;
   //   margin: 0 5px 0 0;
 
@@ -293,7 +293,7 @@ h1,h2,h3,h4,h5,h6 {
   //     border-radius: 3px;
   //     height: 12px;
   //     margin: 0 0 5px;
-  //     width: 40px;      
+  //     width: 40px;
 
   //     &.active {
   //       background-color: #ff0000;
@@ -310,7 +310,7 @@ h1,h2,h3,h4,h5,h6 {
 /* Viper Text Alert Overlay
 -------------------------------------------------------------------------------*/
 #viper-text_alert {
-  
+
   padding: 0;
   width: 1900px;
   height: 1060px;
@@ -336,7 +336,7 @@ h1,h2,h3,h4,h5,h6 {
       }
     }
 
-    &.right { 
+    &.right {
       top: 0;
       left: 1900px;
       //left: 950px;
@@ -356,7 +356,7 @@ h1,h2,h3,h4,h5,h6 {
     padding: 20px;
     opacity: 0;
     transform: scale(0.5) rotate(0deg) translateY(-10%);
-    transition: all 1s; 
+    transition: all 1s;
     word-wrap: break-word;
 
     &.fade {
@@ -376,7 +376,7 @@ h1,h2,h3,h4,h5,h6 {
   width: 1900px;
   //border-top: 1px solid #000;
   height: 140px;
-  //animation: chyron 30s linear infinite; 
+  //animation: chyron 30s linear infinite;
   animation: chyronfade 30s linear infinite;
   opacity: 0;
   position: absolute;
@@ -405,7 +405,7 @@ h1,h2,h3,h4,h5,h6 {
       font-size: 40px;
       //text-shadow: -2px 2px #ff00f0, -4px 4px #000;
       text-shadow: -2px 2px #00fffc, -4px 4px #ff00f0, -6px 6px #000;
-      padding: 45px 0 0 10px;      
+      padding: 45px 0 0 10px;
     }
   }
 
@@ -559,7 +559,7 @@ h1,h2,h3,h4,h5,h6 {
     top: 0;
 	}
   100% {
-    top: -3066px; //( + 122 )
+    top: -3188px; //( + 122 )
   }
 }
 
@@ -602,13 +602,13 @@ h1,h2,h3,h4,h5,h6 {
       }
     }
   }
-  
+
   #left-table {
     position: absolute;
     top: 20px;
     left: 100px;
   }
-  
+
   #center-table {
     position: absolute;
     left: 650px;
@@ -698,7 +698,7 @@ h1,h2,h3,h4,h5,h6 {
     left:0;
     top:0;
     z-index:-1;
-    box-shadow: 
+    box-shadow:
       5vw 15vh 2px white,
       1vw 33vh 0px white,
       2vw 25vh 2px white,
@@ -734,7 +734,7 @@ h1,h2,h3,h4,h5,h6 {
       }
       50% {
         opacity:0.9;
-      }      
+      }
       100% {
         opacity:0.5;
       }
@@ -755,17 +755,17 @@ h1,h2,h3,h4,h5,h6 {
     font-size:calc(30px + 10vh);
     background-image:linear-gradient(#2989cc 0%, #d3e5ec 50%,#592451 51%,#b3628d 55%,#592451 59%,#b3628d 65%,#ac86a6 75%, #b3628d 100%);
     -webkit-background-clip:text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(255,255,255,0.4);
     background-clip: text;
-    position:relative; 
-    
+    position:relative;
+
   }
 
   .chrome:before{
     content:attr(data-text);
-    text-shadow: -1px -1px 1px #2989cc,-2px -2px 1px #2989cc, -3px -3px 1px #2989cc, 1px 1px 1px #000, 0px -1px 2px #000, -1px -2px 2px #000, 0 0 5px rgba(255,255,255,1); 
+    text-shadow: -1px -1px 1px #2989cc,-2px -2px 1px #2989cc, -3px -3px 1px #2989cc, 1px 1px 1px #000, 0px -1px 2px #000, -1px -2px 2px #000, 0 0 5px rgba(255,255,255,1);
     opacity:1;
     position:absolute;
     z-index:-1;
@@ -838,7 +838,7 @@ h1,h2,h3,h4,h5,h6 {
   .road:after {
     content:'';
     --grid-size:90px;
-    position:absolute;  
+    position:absolute;
     margin-left: calc(50% - 10px /2 );
     width: 10px;
     height: 100%;
