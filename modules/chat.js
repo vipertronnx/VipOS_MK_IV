@@ -27,7 +27,7 @@ module.exports = function(importIO) {
 const chatInit = async function() {
 
     // Chat Client init
-    const chatClient = new ChatClient({ authProvider, channels: ['dr_viper'] });
+    const chatClient = new ChatClient({ authProvider, channels: ['vipertronnx'] });
     await chatClient.connect();
 
     // Indicate when bot is connected to chat

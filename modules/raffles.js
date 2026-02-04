@@ -39,7 +39,7 @@ function raffleTimer() {
   var raffleAmt = getRaffleAmount();
   var minutes = ((timeout / 1000) / 60);
   
-  client.say(`dr_viper`, `!raffle `+ raffleAmt);
+  client.say(`vipertronnx`, `!raffle `+ raffleAmt);
   console.log(`* A raffle for ` + raffleAmt + ` has begun.`);
   console.log(`* Next raffle in ` + minutes + ` minutes.`);
   console.log(`*`);
