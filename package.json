@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon app.js"
   },
-  "author": "Doc Viper <viper@docviper.com> (http://doctorviper.com/)",
+  "author": "v i p e r <hello@viperverse.tv> (https://viperverse.tv/)",
   "license": "MIT",
   "dependencies": {
     "@twurple/api": "^6.2.1",

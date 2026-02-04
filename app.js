@@ -13,7 +13,7 @@ const chat = require('./modules/chat')(io);
 /**
  * Setup static directory
  *  and rendering engine
- * 
+ *
  */
 app.use(express.static('./public'))
 app.set("view engine","ejs")
@@ -22,7 +22,7 @@ app.use(cors())
 
 /**
  * Home Page
- * 
+ *
  */
 app.get('/', (req, res) => {
   res.render('home_page.ejs')
@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
 
 /**
  * Overlays
- * 
+ *
  */
 app.get('/overlay/cam-bg', (req, res) => {
   res.render('cam_bg.ejs')
@@ -72,7 +72,7 @@ app.get('/overlay/knight-rider', (req, res) => {
 
 /**
  * API Endpoints
- * 
+ *
  */
 
 app.post('/api/v1/text', express.json(), (req, res) => {
@@ -98,7 +98,7 @@ app.post('/api/v1/terminator', express.json(), (req, res) => {
 
 /**
  * 404 / All
- * 
+ *
  */
 app.all('*', (req, res) => {
   res.status(404).send('resource not found')
@@ -107,7 +107,7 @@ app.all('*', (req, res) => {
 
 /**
  * Listen on port
- * 
+ *
  */
 server.listen(5000, async () => {
   console.log('server is listening on port 5000....')
